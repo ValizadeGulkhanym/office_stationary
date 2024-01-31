@@ -41,7 +41,7 @@
 }
 
 .my_dropdown_menu .sub-menu {
-    left: 100%;
+    left: 103.4%;
     position: absolute;
     top: 0;
     display: none;
@@ -50,9 +50,11 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-left-color: #fff;
-    box-shadow: none;
+    box-shadow: 1px  rgb(233, 230, 230);
 }
-
+.my_dropdown_menu .sub-menu li a{
+  text-transform: capitalize;
+}
 .my_dropdown_menu .right-caret:after,
 .my_dropdown_menu .left-caret:after {
     content: "";
@@ -66,10 +68,40 @@
 }
 
 .my_dropdown_menu .right-caret:after {
-    border-left: 5px solid #ffaf46;
+    border-left: 5px solid #ff4646;
 }
 
 .my_dropdown_menu .left-caret:after {
-    border-right: 5px solid #ffaf46;
+    border-right: 5px solid #ff4646;
 }
 
+#header_block_social .social_i{
+  font-size: 16px;
+}
+#footer_block_social .social_i a i{
+  font-size: 18px;
+}
+.keçidler li a{
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.footer_col3_i{
+color: #e84f69;
+font-size: 22px;
+}
+.footer_col3_align{
+  display: flex;
+  align-items: center !important;
+}
+.fal {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+}
+.about_main_cont{
+  margin-block: 70px;
+}
+.about_accordion{
+  margin-block: 70px;
+  width: 65%;
+  margin-inline: auto;
+}
