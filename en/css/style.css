@@ -24,9 +24,6 @@
 .blogs-container .pagination .material-icons {
   font-size: 0.9375rem;
 }
-.blogs-container .blog-image img {
- width: 100%;
-}
 #blog-category .childrens a {
   margin-bottom: 15px;
 }
@@ -35,22 +32,33 @@
   display: block;
 }
 .blog-item {
+
   margin-bottom: 30px;
 }
 .blog-item .blog-image-container {
   position: relative;
-  width: 60%;
+  width: 70%;
 }
 .blog-item .title {
   margin-bottom: 0.9375rem;
   margin-top: 35px;
 }
+
 .blog-item .title a {
   font-weight: 700;
-  font-size: 30px;
+  font-size:20px;
   color: #01213a;
-  line-height: 32px;
+  line-height: 24px;
   text-transform: capitalize;
+}
+@media screen {
+  .blog-item .title a {
+    font-weight: 700;
+    font-size:26px;
+    color: #01213a;
+    line-height: 28px;
+    text-transform: capitalize;
+  }
 }
 .blog-item .title a:hover {
   color: #e84f69;
@@ -117,6 +125,7 @@
   display: none;
 }
 .blog-detail {
+  margin-bottom: 50px;
   line-height: 24px;
 }
 .blog-detail .blog-title {
@@ -414,8 +423,21 @@ font-size: 22px;
 .about_main_cont{
   margin-block: 70px;
 }
-.about_accordion{
+.about_accordion_wrapper{
   margin-block: 70px;
   width: 65%;
   margin-inline: auto;
+}
+#accordion h3{
+  background-color: #e84f69 !important;
+}
+.img-responsive{
+  display: none;
+}
+
+@media (min-width:1202px) {
+  .img-responsive{
+    display: block;
+  }
+  
 }

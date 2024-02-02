@@ -33369,10 +33369,18 @@ body#checkout #payment-confirmation .ps-shown-by-js .btn {
   text-align: center;
 }
 .block-social li + li a {
-  padding: 0 15px;
+  padding: 0 5px;
 }
 .block-social li:first-child a {
-  padding: 0 15px 0 0;
+  padding: 0 5px 0 0;
+}
+@media (min-width:720px) {
+  .block-social li:first-child a {
+    padding: 0 15px 0 0;
+  }
+  .block-social li + li a {
+    padding: 0 15px 0 0;
+  }
 }
 .rtl .block-social li:first-child a {
   padding: 0 0 0 15px;
@@ -33989,8 +33997,9 @@ body.layout-boxed-lg #page .container {
 body#checkout .container-blockreassurance {
   min-height: auto;
 }
-#header,
+
 #header .header-top {
+  padding-block: 12px;
   background-color: #fff;
 }
 #search_widget {
@@ -42757,10 +42766,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid #d3d3d3;
-  background: #e6e6e6
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAAAAABKM1UHAAAAH0lEQVQ4y2N4y8QwCgcR/AnEjGCMDBmYmKDio5CuEABaxAUQRVsJFgAAAABJRU5ErkJggg==)
-    50% 50% repeat-x;
-  font-weight: 400;
+ 
   color: #555;
 }
 .ui-state-default a,
@@ -42776,9 +42782,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
   border: 1px solid #999;
-  background: #dadada
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAAAAABKM1UHAAAAH0lEQVR42mN4wsQwiOAo/AbEjFDIBMIgEgbp7ZpRCABBfwUJFjr9hgAAAABJRU5ErkJggg==)
-    50% 50% repeat-x;
+  background:white;
   font-weight: 400;
   color: #212121;
 }
@@ -42793,9 +42797,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
   border: 1px solid #aaa;
-  background: #fff
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAAAAABKM1UHAAAAGElEQVR42mP4N6jgKPwPIdEhSIz+cBQCAN0ljbVRDamVAAAAAElFTkSuQmCC)
-    50% 50% repeat-x;
+  background: white;
   font-weight: 400;
   color: #212121;
 }
@@ -42809,9 +42811,8 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
   border: 1px solid #fcefa1;
-  background: #fbf9ee
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAIAAADgOp2MAAAANklEQVR4Ae3KsQ0AIAhEUfYfVlUqgcIL0rqAueLlN1/CJhE9+G7Jsh2qNlC4X3VJuKIq/j+iA4lnicmEWt+AAAAAAElFTkSuQmCC)
-    50% 50% repeat-x;
+  background: white
+   ;
   color: #363636;
 }
 .ui-state-highlight a,
@@ -42823,9 +42824,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
   border: 1px solid #cd0a0a;
-  background: #fef1ec
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAIAAADgOp2MAAAANUlEQVR42u3GAQaAABjF4L3d/7YRif4kEjpBHj4bx7oI1JeqfXNmTOKQu8FE4f3I01z9u6oTmGgOCwxIvwUAAAAASUVORK5CYII=)
-    50% 50% repeat-x;
+  background: white;
   color: #cd0a0a;
 }
 .ui-state-error a,

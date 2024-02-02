@@ -396,63 +396,7 @@
             </ol>
           </nav>
           <div class="row">
-            <div id="left-column" class="sidebar col-xs-12 col-sm-12 col-md-4 col-lg-3">
-                <div class="block-categories block block-highlighted hidden-sm-down">
-                  <h4 class="title_block"><a href="../2-home.html">Home</a></h4>
-                  <div class="block_content">
-                    <ul class="category-top-menu">
-                      <li>
-                        <ul class="category-sub-menu">
-                          <li data-depth="0">
-                            <a href="../3-file-storage.html">File Storage</a>
-                            <div class="navbar-toggler collapse-icons" data-toggle="collapse" data-target="#exCollapsingNavbar3">
-                              <i class="fal fa-angle-right add"></i><i class="fal fa-angle-down remove"></i>
-                            </div>
-                            <div class="collapse" id="exCollapsingNavbar3">
-                              <ul class="category-sub-menu">
-                                <li data-depth="1">
-                                  <a class="category-sub-link" href="../4-paper.html">Paper</a>
-                                </li>
-                                <li data-depth="1">
-                                  <a class="category-sub-link" href="../5-writing-supplies.html">Writing Supplies</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </li>
-                          <li data-depth="0">
-                            <a href="../6-accessories.html">Accessories</a>
-                            <div class="navbar-toggler collapse-icons" data-toggle="collapse" data-target="#exCollapsingNavbar6">
-                              <i class="fal fa-angle-right add"></i><i class="fal fa-angle-down remove"></i>
-                            </div>
-                            <div class="collapse" id="exCollapsingNavbar6">
-                              <ul class="category-sub-menu">
-                                <li data-depth="1">
-                                  <a class="category-sub-link" href="../7-stationery.html">Stationery</a>
-                                </li>
-                                <li data-depth="1">
-                                  <a class="category-sub-link" href="../8-home-accessories.html">Home Accessories</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </li>
-                          <li data-depth="0">
-                            <a href="../9-office-supplies-and-stationery.html">Office Supplies and Stationery</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div id="search_filters_wrapper" class="hidden-sm-down">
-                  <div id="search_filter_controls" class="hidden-md-up">
-                    <span id="_mobile_search_filters_clear_all"></span>
-                    <button class="btn btn-secondary ok">
-                      <i class="material-icons rtl-no-flip"></i>
-                      OK
-                    </button>
-                  </div>
-                </div>
-              </div>
+           
             <div
               id="content-wrapper"
               class="left-column col-xs-12 col-sm-12 col-md-8 col-lg-9"
@@ -473,18 +417,7 @@
                             class="gmap-cover not-display-list-store"
                             style="width: 100%; height: 420px; clear: both"
                           >
-                            <div class="gmap-content">
-                              <div
-                                id="map-canvas-form_15631990511139685"
-                                class="gmap"
-                                style="
-                                  min-width: 100px;
-                                  min-height: 100px;
-                                  width: 840px;
-                                  height: 420px;
-                                "
-                              ></div>
-                            </div>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.8053735466265!2d49.8545731830427!3d40.413162182233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307db8e976d42b%3A0x4772923e2b16c6b3!2sSaytlar%C4%B1n%20haz%C4%B1rlanmas%C4%B1-%20SMM%20xidm%C9%99ti%20-Khan%20Buta%20Group%20MMC!5e0!3m2!1saz!2saz!4v1706859537534!5m2!1saz!2saz" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                           </div>
                 
                         </div>
@@ -508,13 +441,7 @@
                           </div>
                         </div>
                         <div class="form-group col-md-6 col-sm-12">
-                          <select
-                            name="id_contact"
-                            class="form-control form-control-select"
-                          >
-                            <option value="2">Customer service</option>
-                            <option value="1">Webmaster</option>
-                          </select>
+                     <input class="form-control" type="text" placeholder="Full Name">
                         </div>
                         <div class="form-group col-md-6 col-sm-12">
                           <input
@@ -522,28 +449,16 @@
                             name="from"
                             type="email"
                             value
-                            placeholder="your@email.com"
+                            placeholder="Email"
                           />
                         </div>
-                        <div class="form-group row">
-                          <div class="col-md-6">
-                            <input
-                              type="file"
-                              name="fileUpload"
-                              class="filestyle"
-                              data-buttonText="Choose file"
-                            />
-                          </div>
-                          <span class="col-md-3 form-control-comment">
-                            optional
-                          </span>
-                        </div>
+                  
                         <div class="form-group row">
                           <div class="col-md-12 col-sm-12 col-xs-12">
                             <textarea
                               class="form-control"
                               name="message"
-                              placeholder="How can we help?"
+                              placeholder="Leave Your Message"
                               rows="3"
                             ></textarea>
                           </div>
@@ -568,7 +483,7 @@
                           class="btn btn-outline"
                           type="submit"
                           name="submitMessage"
-                          value="post comment"
+                          value="Submit"
                         />
                       </footer>
                     </form>
