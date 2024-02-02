@@ -37,7 +37,8 @@
 }
 .blog-item .blog-image-container {
   position: relative;
-  width: 70%;
+  width: 90%;
+  margin-inline: auto;
 }
 .blog-item .title {
   margin-bottom: 0.9375rem;
@@ -51,7 +52,16 @@
   line-height: 24px;
   text-transform: capitalize;
 }
+@media (min-width:720px) {
+  
+.blog-item .blog-image-container {
+  position: relative;
+  width: 70%;
+  margin-inline: 0;
+}
+}
 @media screen {
+  
   .blog-item .title a {
     font-weight: 700;
     font-size:26px;

@@ -6370,6 +6370,7 @@ a.text-gray-dark:hover {
     margin-left: 80%;
   }
 }
+
 @media (min-width: 992px) {
   .col-lg-1 {
     float: left;
@@ -6403,10 +6404,7 @@ a.text-gray-dark:hover {
     float: left;
     width: 66.66667%;
   }
-  .col-lg-9 {
-    float: left;
-    width: 75%;
-  }
+  
   .col-lg-10 {
     float: left;
     width: 83.33333%;
@@ -21306,7 +21304,6 @@ button:hover {
   }
 }
 .leo-megamenu .navbar-nav > li > a {
-  padding: 14px 20px;
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
