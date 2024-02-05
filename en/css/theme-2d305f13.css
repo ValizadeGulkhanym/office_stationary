@@ -542,6 +542,8 @@ select.form-control-lg:not([size]):not([multiple]),
   height: 3.16667rem;
 }
 .form-group {
+  margin-left: 0;
+  margin-right: 0 !important;
   margin-bottom: 1rem;
 }
 .form-text {
@@ -21257,11 +21259,9 @@ button:hover {
 .rtl .leo-megamenu .navbar-nav > li {
   text-align: right;
 }
-.leo-megamenu .navbar-nav > li + .nav-item {
-  margin-left: 0;
-}
+
 .rtl .leo-megamenu .navbar-nav > li + .nav-item {
-  margin-right: 0;
+  margin-right: 20px;
   margin-left: inherit;
 }
 .leo-megamenu .navbar-nav > li.aligned-fullwidth {
@@ -30748,8 +30748,8 @@ body#checkout #payment-confirmation .ps-shown-by-js .btn {
   font-style: normal;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 27px;
+  line-height: 32px;
   color: #000;
   text-transform: capitalize;
   margin-bottom: 10px;
@@ -30857,7 +30857,7 @@ body#checkout #payment-confirmation .ps-shown-by-js .btn {
   border-width: 1px 0;
   border-style: dashed;
   border-color: #ddd;
-  margin: 30px 0;
+ 
 }
 .product-add-to-cart .control-label {
   font-size: 15px;
@@ -31080,7 +31080,6 @@ body#checkout #payment-confirmation .ps-shown-by-js .btn {
 }
 .product-prices {
   margin-top: 1.25rem;
-  margin-bottom: 30px;
 }
 .product-prices .tax-shipping-delivery-label {
   font-size: 0.8125rem;
@@ -31246,7 +31245,7 @@ body#checkout #payment-confirmation .ps-shown-by-js .btn {
   color: #878787;
   text-align: center;
   cursor: pointer;
-  right: 20px;
+  right: 75px;
   border-radius: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -33396,46 +33395,14 @@ body#checkout #payment-confirmation .ps-shown-by-js .btn {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
+
 .block-social li a:hover {
-  color: transparent;
-  border: none;
-}
-.block-social li a:hover:before {
   color: #e84f69;
 }
 .block-social li a span {
   display: none;
 }
-.block-social li a:before {
-  content: "";
-  font-family: "Font Awesome 5 Brands";
-  font-size: 14px;
-  color: #acacac;
-}
-.block-social li.facebook a:before {
-  content: "\f39e";
-}
-.block-social li.twitter a:before {
-  content: "\f099";
-}
-.block-social li.rss a:before {
-  content: "\f09e";
-}
-.block-social li.youtube a:before {
-  content: "\f167";
-}
-.block-social li.googleplus a:before {
-  content: "\f0d5";
-}
-.block-social li.pinterest a:before {
-  content: "\f0d2";
-}
-.block-social li.vimeo a:before {
-  content: "\f27d";
-}
-.block-social li.instagram a:before {
-  content: "\f16d";
-}
+
 @media (max-width: 767px) {
   .footer-container .ApColumn .block {
     margin-bottom: 0;
@@ -33863,6 +33830,7 @@ body.layout-boxed-lg #page .container {
   opacity: 1;
 }
 .form-footer {
+  width: 98%;
   text-align: center;
 }
 .leo_free_price {
@@ -44708,23 +44676,26 @@ form#searchbox input#search_button {
   background: #fff;
 }
 #leo_search_block_top .form-control {
-  border: 0;
+border:0.5px solid;
+border-left:0;
+border-right:0;
+
   background: #fff;
   height: 48px;
   line-height: 48px;
-  padding: 0 90px 0 15px;
+ 
   -moz-border-top-left-radius: 30px;
   -webkit-border-top-left-radius: 30px;
   border-top-left-radius: 30px;
   -moz-border-bottom-left-radius: 30px;
   -webkit-border-bottom-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  -moz-border-top-right-radius: 0;
-  -webkit-border-top-right-radius: 0;
-  border-top-right-radius: 0;
-  -moz-border-bottom-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0;
+  -moz-border-top-right-radius: 30px;
+  -webkit-border-top-right-radius: 30px;
+  border-top-right-radius: 30px;
+  -moz-border-bottom-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 30px;
+  border-bottom-right-radius: 30;
   outline: 0;
 }
 .rtl #leo_search_block_top .form-control {
@@ -48389,7 +48360,7 @@ form#searchbox input#search_button {
   line-height: 48px;
   display: block;
   padding: 0;
-  margin-bottom: 20px;
+
   color: #01213a;
   text-transform: capitalize;
 }

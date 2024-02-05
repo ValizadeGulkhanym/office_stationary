@@ -412,7 +412,7 @@
   font-size: 16px;
 }
 #footer_block_social .social_i a i{
-  font-size: 18px;
+  font-size: 22px;
 }
 .keçidler li a{
   text-transform: capitalize;
@@ -422,7 +422,11 @@
 color: #e84f69;
 font-size: 22px;
 }
+.footer_col3_align a{
+  color: black !important;
+}
 .footer_col3_align{
+
   display: flex;
   align-items: center !important;
 }
@@ -451,3 +455,153 @@ font-size: 22px;
   }
   
 }
+/* swiper slider */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: #fff;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 234px;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 330px;
+  margin: 20px auto;
+  position: relative;
+}
+/* card */
+.card_price_wrapper{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+.card_p_wrapper {
+  color: #01213a;
+    font-size: 14px;
+    font-weight: 500;
+}
+.price1{
+  color: #bcbcbc;
+    text-decoration: line-through;
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.price2{
+  color: #797979;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.i_box{
+ width: 36px;
+ height: 36px;
+  background-color:#fff;
+  border-radius: 50%;
+  position: absolute;
+z-index: 55555;
+right: 10px;
+top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.i_box i{
+font-size: 20px;
+color: #acacac;
+}
+.card_img_wrapper{
+  position: relative;
+}
+.card_img_wrapper:hover{
+
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05)
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#part3{
+  width: 86%;
+  margin-inline: auto;
+}
+.swiper-button-next, .swiper-button-prev {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 42%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px; /* Set the desired font size */
+}
+.head_of_slider{
+  width:85%;
+  margin-inline: auto;
+}
+.head_of_slider p{
+ font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    display: block;
+    padding: 0;
+    color: #01213a;
+    text-transform: capitalize;
+}
+.productdetail_desc{
+  margin-block: 40px;
+}
+.productdetail_desc_head p{
+  text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+  
+}
+#myForm{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
